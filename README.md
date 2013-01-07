@@ -1,7 +1,7 @@
-##Zombies Ahead sandbox branch should be longterm
+##Impact Sandbox
 
-An HTML5 canvas game built with [Impact](http://impactjs.com/) following [Jesse Freeman's](https://github.com/theflashbum) great book [Introducing HTML5 Game Development](http://www.amazon.com/gp/product/1449315178/?tag=nzjamescom-20)
+An [Impact](http://impactjs.com/) development sandbox with additional Developer controls to enable runtime adjustments of game parameters.
 
-Play it now: http://nzjames.com/zombiesahead
+Demo: http://nzjames.com/impact-sandbox
 
 This repository does not contain the Impact Engine.  You will need a licence for Impact in order to modify and run this source.

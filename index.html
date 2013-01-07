@@ -1,38 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Zombies Ahead</title>
-	<style type="text/css">
-		html,body {
-			background-color: #000;
-			color: #fff;
-			font-family: helvetica, arial, sans-serif;
-			margin: 0;
-			padding: 0;
-			font-size: 12pt;
-		}
-		
-		#canvas {
-			position: absolute;
-			left: 0;
-			right: 0;
-			top: 0;
-			bottom: 0;
-			margin: auto;
-			border: 1px solid #555;
-		}
-	</style>
+    <title>Zombies Ahead - Develop</title>
+    <style type="text/css">
+        html,body {
+            background-color: #000;
+            color: #fff;
+            font-family: helvetica, arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 12pt;
+        }
 
-	<script type="text/javascript" src="game.min.js"></script>
+        #canvas {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border: 1px solid #555;
+        }
+        #dev-controls {
+            border: 1px solid white;
+            width: 150px;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            margin: auto;
+            padding: 10px;
+            background: rgba(100,100,100,0.2);
+            font-size: 12px;
+        }
+        #dev-controls b {
+            font-weight: normal;
+            display: block;
+            width: 100%;
+            border-bottom: 1px solid #666;
+        }
+        #dev-controls ul {
+            margin: 0px;
+            padding: 0px;
+        }
+        #dev-controls li {
+            margin: 10px 0 0;
+            list-style-type: none;
+            padding: 0;
+            border-bottom: 1px dashed #666;
+        }
+        #dev-controls label {
+            font-size: 10px;
+            font-weight: bold;
+            display: block;
+        }
+        #dev-controls input {
+            width: 60%;
+        }
+        #dev-controls span {
+            float: right;
+        }
+    </style>
+
+    <script type="text/javascript" src="lib/impact/impact.js"></script>
+    <script type="text/javascript" src="lib/game/main.js"></script>
 </head>
 <body>
-	<canvas id="canvas"></canvas>
-
+    <canvas id="canvas"></canvas>
         <script>
-            var _gaq=[['_setAccount','UA-35023300-1'],['_trackPageview']];
+            var _gaq=[['_setAccount',''],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
+
 </body>
 </html>
